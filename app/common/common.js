@@ -1,11 +1,12 @@
 import angular from 'angular'
-import { Header } from './header'
-import { Footer } from './footer'
+import header from './header'
+import footer from './footer'
 
 const common = angular
-  .module('app.common', [])
-  .component('header', Header)
-  .component('footer', Footer)
+  .module('app.common', [
+    header,
+    footer
+  ])
   .name
 
 export default common
