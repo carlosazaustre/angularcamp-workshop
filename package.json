@@ -4,7 +4,12 @@
   "description": "AngularCamp Worskhop",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon ./server/index.js"
+    "create": "touch ./server/public/app.js",
+    "build": "browserify -t babelify ./app/main.js -o ./server/public/app.js",
+    "watch": "watchify -t babelify ./app/main.js -o ./server/public/app.js --debug",
+    "postinstall": "npm run create && npm run build",
+    "dev": "nodemon ./server/index.js",
+    "serve": "parallelshell 'npm run dev' 'npm run watch'"
   },
   "repository": {
     "type": "git",
@@ -34,6 +39,7 @@
     "babel-runtime": "^6.9.2",
     "babelify": "^7.3.0",
     "browserify": "^13.0.1",
-    "nodemon": "^1.9.2"
+    "nodemon": "^1.9.2",
+    "watchify": "^3.7.0"
   }
 }
