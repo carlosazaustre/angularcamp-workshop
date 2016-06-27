@@ -1,13 +1,16 @@
+import { SpeakerItemController as controller } from './speaker-item.controller'
+
 export const SpeakerItemComponent = {
+  controller: controller,
   template: `
     <li>
       <figure>
-        <img width="96px" src="//angularcamp.org/img/people/ToddMotto.jpg">
+        <img width="96px" src="{{$ctrl.data.photo}}">
       </figure>
       <div>
-        <h3>Todd Motto</h3>
-        <span>UK</span>
-        <span><em>From .component() to @Component</em></span>
+        <h3>{{$ctrl.data.name}}</h3>
+        <span>{{$ctrl.data.country}}</span>
+        <span><em>{{$ctrl.data.talk}}</em></span>
       </div>
     </li>
   `
