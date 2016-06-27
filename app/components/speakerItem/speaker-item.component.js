@@ -1,16 +1,19 @@
 import { SpeakerItemController as controller } from './speaker-item.controller'
 
 export const SpeakerItemComponent = {
-  controller: controller,
+  bindings: {
+    data: '<'
+  },
+  controller,
   template: `
     <li>
       <figure>
-        <img width="96px" src="{{$ctrl.data.photo}}">
+        <img width="96px" ng-src="{{$ctrl.data.photo}}" alt="{{$ctrl.data.name}}" />
       </figure>
       <div>
         <h3>{{$ctrl.data.name}}</h3>
-        <span>{{$ctrl.data.country}}</span>
-        <span><em>{{$ctrl.data.talk}}</em></span>
+        <p>{{$ctrl.data.country}}</p>
+        <p>{{$ctrl.data.talk}}</p>
       </div>
     </li>
   `

@@ -13,7 +13,7 @@ let data = [
   { name: 'Wassim Chegham', country: 'France', talk: 'Angular 2 Server Side Rendering', photo: '//angularcamp.org/img/people/WassimChegham.jpg' },
   { name: 'Sebastian Witalec', country: 'UK', talk: 'Sharing Code Between Web and Native Apps', photo: '//angularcamp.org/img/people/SebastianWitalec.jpg' },
   { name: 'Evan Schultz', country: 'Canada', talk: 'Building Angular 2 Application with Redux', photo: '//angularcamp.org/img/people/EvanSchultz.jpg' },
-  { name: 'Uri Goldshtein', country: 'Everywhere', talk: 'Angular 2.0 with realtime GraphQL', photo: '//angularcamp.org/img/people/UriGoldshtein.jpg' },
+  { name: 'Uri Goldshtein', country: 'Everywhere', talk: 'Angular 2.0 with realtime GraphQL', photo: '//angularcamp.org/img/people/UriGoldshtein.png' },
   { name: 'Christopher Noring', country: 'Sweden', talk: 'TypeScript fundamentals', photo: '//angularcamp.org/img/people/ChristopherNoring.jpg' },
   { name: 'Uri Shaked', country: 'Israel', talk: 'From the World-Wide Web to the World of IoT', photo: '//angularcamp.org/img/people/UriShaked.jpg' },
   { name: 'Manfred Steyer', country: 'Austria', talk: 'Progressive Web Apps with Angular 2', photo: '//angularcamp.org/img/people/ManfredSteyer.jpg' },
