@@ -1,9 +1,11 @@
 import angular from 'angular'
 import speakerList from './speakerList'
+import speakerItem from './speakerItem'
 
 const components = angular
   .module('components', [
-    speakerList
+    speakerList,
+    speakerItem
   ])
   .name
 
