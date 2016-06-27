@@ -8,4 +8,4 @@ class SpeakerItemController {
   loadData () {}
 }
 
-export { SpeakerItemController }
+export default SpeakerItemController
