@@ -1,3 +1,9 @@
+/**
+ * components/speaker/index.js
+ * Module that contains the speakers components and service and configure the routed component for
+ * /speakers path route.
+ */
+
 import angular from 'angular'
 
 import { SpeakerItemComponent } from './speaker-item/speaker-item.component'
