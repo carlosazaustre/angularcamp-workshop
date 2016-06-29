@@ -1,15 +1,16 @@
 class SpeakerListController {
-  constructor (SpeakersService) {
-    this.speakerService = SpeakersService
-  }
+  constructor () {}
 
-  $onInit () {
+  /*$onInit () {
     this.speakers = []
     this.speakerService.getSpeakers().then(data => this.speakers = data)
-  }
+  }*/
 }
 
 export const SpeakerListComponent = {
+  bindings: {
+    speakers: '<'
+  },
   controller: SpeakerListController,
   template: `
     <ul>

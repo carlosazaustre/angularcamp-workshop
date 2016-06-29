@@ -16,7 +16,10 @@ angular
     $stateProvider
       .state('speakers', {
         url: '/speakers',
-        component: 'speakerList'
+        component: 'speakerList',
+        resolve: {
+          speakers: SpeakersService => SpeakersService.getSpeakers()
+        }
       })
     $urlRouterProvider.otherwise('/')
   })
