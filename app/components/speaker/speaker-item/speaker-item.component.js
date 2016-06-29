@@ -11,6 +11,7 @@ export const SpeakerItemComponent = {
   },
   template: `
     <li>
+      <a ng-href="#/speakers/{{$ctrl.data.id}}">
       <figure>
         <img width="96px" ng-src="{{$ctrl.data.photo}}" alt="{{$ctrl.data.name}}" />
       </figure>
@@ -19,6 +20,7 @@ export const SpeakerItemComponent = {
         <p>{{$ctrl.data.country}}</p>
         <p>{{$ctrl.data.talk}}</p>
       </div>
+      </a>
     </li>
   `
 }

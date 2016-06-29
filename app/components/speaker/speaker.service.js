@@ -11,4 +11,8 @@ export default class SpeakerService {
   getSpeakers () {
     return this.$http.get('/api/speakers').then(response => response.data)
   }
+
+  getSpeaker (id) {
+    return this.$http.get(`/api/speakers/${id}`).then(response => response.data)
+  }
 }

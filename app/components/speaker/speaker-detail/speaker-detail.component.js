@@ -12,6 +12,9 @@ export const SpeakerDetailComponent = {
       <header>
         <h1>{{$ctrl.speaker.name}}</h1>
       </header>
+      <figure>
+        <img width="250px" src="{{$ctrl.speaker.photo}}" alt="{{$ctrl.speaker.name}}" />
+      </figure>
       <section>
         <ul>
           <li><strong>Talk:</strong> {{$ctrl.speaker.talk}}</li>
