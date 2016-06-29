@@ -1,3 +1,8 @@
+/**
+ * common/header/header.component.js
+ * A common component for the header of the application
+ */
+
 export const HeaderComponent = {
   template: `
     <div>

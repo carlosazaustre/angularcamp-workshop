@@ -1,14 +1,9 @@
 import angular from 'angular'
 
-import SpeakersService from '../services/speakers.service'
-import { SpeakerItemComponent } from './speakerItem.component'
-import { SpeakerListComponent } from './speakerList.component'
+import speaker from './speaker'
 
 const components = angular
-  .module('app.components', [])
-  .service('SpeakersService', SpeakersService)
-  .component('speakerItem', SpeakerItemComponent)
-  .component('speakerList', SpeakerListComponent)
+  .module('app.components', [speaker])
   .name
 
 export default components

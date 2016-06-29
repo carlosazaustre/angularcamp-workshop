@@ -1,10 +1,10 @@
-export default class SpeakersService {
+export default class SpeakerService {
   constructor ($http) {
     this.$http = $http
   }
 
   getSpeakers () {
-    console.log('SepakersService getSpeaker()')
+    console.log('SepakerService getSpeaker()')
     return this.$http.get('/api/speakers').then(response => response.data)
   }
 }
