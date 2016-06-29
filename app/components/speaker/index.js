@@ -20,7 +20,7 @@ const speaker = angular
   .config(($stateProvider, $urlRouterProvider) => {
     $stateProvider
       .state('speakers', {
-        url: '/speakers',
+        url: '/',
         component: 'speakerList',
         resolve: {
           speakers: SpeakerService => SpeakerService.getSpeakers()

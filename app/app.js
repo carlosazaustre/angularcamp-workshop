@@ -19,6 +19,6 @@ const root = angular
   .component('acApp', AppComponent)
 
 // Bootstrap the app.
-angular.element(document).ready(() => angular.bootstrap(document, ['angularCamp']))
+document.addEventListener('DOMContentLoaded', () => angular.bootstrap(document, ['angularCamp']))
 
 export default root

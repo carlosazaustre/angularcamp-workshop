@@ -11,7 +11,7 @@ export const SpeakerDetailComponent = {
     <article class="card">
       <figure class="card-image">
         <img width="250px" src="{{$ctrl.speaker.photo}}" alt="{{$ctrl.speaker.name}}" />
-        <span class="card-title">{{$ctrl.speaker.name}}</span>
+        <span ng-click="$ctrl.onClick();" class="card-title">{{$ctrl.speaker.name}}</span>
       </figure>
       <section class="card-content">
         <h5>{{$ctrl.speaker.talk}}</h5>
