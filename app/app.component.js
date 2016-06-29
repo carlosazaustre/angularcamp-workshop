@@ -1,7 +1,7 @@
 export const AppComponent = {
   template: `
-    <header></header>
-    <speaker-list></speaker-list>
-    <footer></footer>
+    <ac-header></ac-header>
+    <div ui-view></div>
+    <ac-footer></ac-footer>
   `
 }

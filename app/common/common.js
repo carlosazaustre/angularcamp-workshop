@@ -1,12 +1,11 @@
 import angular from 'angular'
-import header from './header'
-import footer from './footer'
+import { HeaderComponent } from './header.component'
+import { FooterComponent } from './footer.component'
 
 const common = angular
-  .module('app.common', [
-    header,
-    footer
-  ])
+  .module('app.common', [])
+  .component('acHeader', HeaderComponent)
+  .component('acFooter', FooterComponent)
   .name
 
 export default common

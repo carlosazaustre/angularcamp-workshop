@@ -1,10 +1,7 @@
-import { SpeakerItemController as controller } from './speaker-item.controller'
-
 export const SpeakerItemComponent = {
   bindings: {
     data: '<'
   },
-  controller,
   template: `
     <li>
       <figure>

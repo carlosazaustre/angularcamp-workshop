@@ -1,11 +1,24 @@
 import angular from 'angular'
-import { AppComponent } from './app.component'
+import uiRouter from 'angular-ui-router'
+
 import common from './common/common'
 import components from './components/components'
+import { AppComponent } from './app.component'
 
 angular
-  .module('myApp', [
+  .module('angularCamp', [
+    uiRouter,
     common,
     components
   ])
-  .component('app', AppComponent)
+  .component('acApp', AppComponent)
+  .config(($stateProvider, $urlRouterProvider) => {
+    $stateProvider
+      .state('speakers', {
+        url: '/speakers',
+        component: 'speakerList'
+      })
+    $urlRouterProvider.otherwise('/')
+  })
+
+angular.element(document).ready(() => angular.bootstrap(document, ['angularCamp']))
