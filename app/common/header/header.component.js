@@ -5,9 +5,10 @@
 
 export const HeaderComponent = {
   template: `
-    <div>
-      <h1>AngularCamp 2016</h1>
-      <h2>The most important Angular event in Europe!</h2>
-    </div>
+    <nav>
+      <div class="nav-wrapper red darken-4">
+        <a href="#" class="brand-logo center">AngularCamp 2016</a>
+      </div>
+    </nav>
   `
 }

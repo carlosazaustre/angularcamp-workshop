@@ -10,17 +10,10 @@ export const SpeakerItemComponent = {
     data: '<'
   },
   template: `
-    <li>
-      <a ng-href="#/speakers/{{$ctrl.data.id}}">
-      <figure>
-        <img width="96px" ng-src="{{$ctrl.data.photo}}" alt="{{$ctrl.data.name}}" />
-      </figure>
-      <div>
-        <h3>{{$ctrl.data.name}}</h3>
-        <p>{{$ctrl.data.country}}</p>
-        <p>{{$ctrl.data.talk}}</p>
-      </div>
-      </a>
+    <li class="collection-item avatar" style="border-bottom: 1px solid #cccccc;">
+      <img class="circle" width="96px" ng-src="{{$ctrl.data.photo}}" alt="{{$ctrl.data.name}}" />
+      <span class="title">{{$ctrl.data.name}}</span>
+      <p><a ng-href="#/speakers/{{$ctrl.data.id}}">{{$ctrl.data.talk}}</a></p>
     </li>
   `
 }

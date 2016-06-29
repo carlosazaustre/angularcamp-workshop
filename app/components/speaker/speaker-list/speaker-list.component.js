@@ -10,7 +10,7 @@ export const SpeakerListComponent = {
     speakers: '<'
   },
   template: `
-    <ul>
+    <ul class="collection">
       <speaker-item ng-repeat="speaker in $ctrl.speakers" data="speaker"></speaker-item>
     </ul>
   `

@@ -8,21 +8,18 @@ export const SpeakerDetailComponent = {
     speaker: '<'
   },
   template: `
-    <article>
-      <header>
-        <h1>{{$ctrl.speaker.name}}</h1>
-      </header>
-      <figure>
+    <article class="card">
+      <figure class="card-image">
         <img width="250px" src="{{$ctrl.speaker.photo}}" alt="{{$ctrl.speaker.name}}" />
+        <span class="card-title">{{$ctrl.speaker.name}}</span>
       </figure>
-      <section>
-        <ul>
-          <li><strong>Talk:</strong> {{$ctrl.speaker.talk}}</li>
-          <li><strong>Complexity</strong> {{$ctrl.speaker.complexity}}</li>
-          <li><strong>Country:</strong> {{$ctrl.speaker.country}}</li>
-        </ul>
+      <section class="card-content">
+        <h5>{{$ctrl.speaker.talk}}</h5>
         <p>{{$ctrl.speaker.description}}</p>
       </section>
+      <aside class="card-action">
+        <a href="#">{{$ctrl.speaker.complexity}}</a>
+      </aside>
     </article>
   `
 }
