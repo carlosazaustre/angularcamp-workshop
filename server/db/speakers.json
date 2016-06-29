@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "Todd Motto",
+    "country": "UK",
+    "talk": "From .component() to @Component",
+    "photo": "//angularcamp.org/img/people/ToddMotto.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Maxim Salnikov",
+    "country": "Norway",
+    "talk":"'Angular Material 2: Reward your app with high-quality UI in minutes",
+    "photo": "//angularcamp.org/img/people/MaximSalnikov.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Wassim Chegham",
+    "country": "France",
+    "talk": "Angular 2 Server Side Rendering",
+    "photo": "//angularcamp.org/img/people/WassimChegham.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Sebastian Witalec",
+    "country": "UK",
+    "talk": "Sharing Code Between Web and Native Apps",
+    "photo": "//angularcamp.org/img/people/SebastianWitalec.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Evan Schultz",
+    "country": "Canada",
+    "talk": "Building Angular 2 Application with Redux",
+    "photo": "//angularcamp.org/img/people/EvanSchultz.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Uri Goldshtein",
+    "country": "Everywhere",
+    "talk": "Angular 2.0 with realtime GraphQL",
+    "photo": "//angularcamp.org/img/people/UriGoldshtein.png"
+  },
+  {
+    "id": 7,
+    "name": "Christopher Noring",
+    "country": "Sweden",
+    "talk": "TypeScript fundamentals",
+    "photo": "//angularcamp.org/img/people/ChristopherNoring.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Uri Shaked",
+    "country": "Israel",
+    "talk": "From the World-Wide Web to the World of IoT",
+    "photo": "//angularcamp.org/img/people/UriShaked.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Manfred Steyer",
+    "country": "Austria",
+    "talk": "Progressive Web Apps with Angular 2",
+    "photo": "//angularcamp.org/img/people/ManfredSteyer.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Thorsten Hans",
+    "country": "Germany",
+    "talk": "Angular 2 super-charged: Native desktop power with Electron",
+    "photo": "//angularcamp.org/img/people/Thorsten_Hans.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Vanessa Yuen",
+    "country": "Canada",
+    "talk": "Augury",
+    "photo": "//angularcamp.org/img/people/VanessaYuen.jpg"
+  },
+  {
+    "id": 12,
+    "name": "David Pich",
+    "country": "Spain",
+    "talk": "Open Keynote",
+    "photo": "//angularcamp.org/img/people/DavidPich.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Johannes Weber",
+    "country": "Germany",
+    "talk": "Closing Keynote",
+    "photo": "//angularcamp.org/img/people/Jowe.jpg"
+  }
+]

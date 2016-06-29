@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "Todd Motto",
+  "country": "UK",
+  "talk": "From .component() to @Component",
+  "photo": "//angularcamp.org/img/people/ToddMotto.jpg",
+  "complexity": "Expert",
+  "description": "Exploring the depths of creating Angular 2 Components with @Component and ES6 classes. This talk dives into concepts we all know and loved in Angular 1.x, from passing data into Components and exposing custom events, through to multi-point transclusion, and mastering @Host, @HostChild/HostChildren, @ViewChild/ViewChildren to create complex Components and Directives."
+}

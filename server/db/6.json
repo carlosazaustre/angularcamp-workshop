@@ -1,0 +1,9 @@
+{
+  "id": 6,
+  "name": "Uri Goldshtein",
+  "country": "Everywhere",
+  "talk": "Angular 2.0 with realtime GraphQL",
+  "photo": "//angularcamp.org/img/people/UriGoldshtein.png",
+  "complexity": "Intermediate",
+  "description": "How to move you stack towards the future gradually"
+}

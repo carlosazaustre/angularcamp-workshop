@@ -1,0 +1,9 @@
+{
+  "id": 9,
+  "name": "Manfred Steyer",
+  "country": "Austria",
+  "talk": "Progressive Web Apps with Angular 2",
+  "photo": "//angularcamp.org/img/people/ManfredSteyer.jpg",
+  "complexity": "Intermediate",
+  "description": "Progressive Web Apps are the next stage of modern browser applications. They are offline-enabled, can be installed and support real notifications and data synchronisation in the background thanks to the latest browser standard offline capacity. They take use of modern approaches such as service workers, the web app manifest, browser databases and the app shell pattern are also included. This session will look at this new architectural approach that has already been taken up by national and international concerns alike whilst showing, based on the example of an Angular 2 application, how this approach can be realised and what needs to be looked out for when doing so"
+}
