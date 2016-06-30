@@ -1,6 +1,7 @@
 /**
  * components/speaker/speaker.service.js
- * Service to fetch data from Speakers api
+ *
+ * Service to fetch data from Speakers API
  */
 
 export default class SpeakerService {

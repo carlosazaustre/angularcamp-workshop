@@ -1,5 +1,6 @@
 /**
  * components/speaker/speaker-detail/speaker-detail.js
+ *
  * Stateful component that represents a detail view for a Speaker.
  */
 

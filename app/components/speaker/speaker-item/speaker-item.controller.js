@@ -1,3 +1,9 @@
+/**
+ * components/speaker/speaker-item/speaker-item.controller.js
+ *
+ * Controller for <speaker-item> component
+ */
+
 class SpeakerItemController {
   constructor () {}
 

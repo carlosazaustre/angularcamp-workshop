@@ -1,5 +1,6 @@
 /**
  * common/common.js
+ *
  * Module that contains the common components for the application.
  */
 

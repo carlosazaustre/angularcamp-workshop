@@ -1,5 +1,6 @@
 /**
  * components/components.js
+ *
  * Module that contains the specific components for the application.
  */
 
