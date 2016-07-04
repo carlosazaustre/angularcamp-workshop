@@ -4,7 +4,7 @@ Workshop for AngularCamp.
 
 ## Description
 
-![Angular App](http://im.ezgif.com/tmp/ezgif-3371359087.gif)
+![Angular App](https://carlosazaustre.es/blog/content/images/2016/07/ezgif-1440086715.gif)
 
 SPA Development based in components with Angular 1.5 and ES6/ES2015 transpiled with Babel, following the [Todd Motto's Angular styleguide](https://github.com/toddmotto/angular-styleguide).
 
